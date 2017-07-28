@@ -1,0 +1,23 @@
+body {
+	background: linear-gradient(-45deg, #d6cbd3, #eca1a6, #bdcebe, #ada397);
+	text-align: center;
+}
+
+
+#get-joke {
+	font-weight: bold;
+	font-size: 28px;
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	border: 3px solid #ada397;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#joke {
+	font-family: 'Raleway', sans-serif;
+	color:#6b6b47;
+	margin-top: 60px;
+	font-size: 28px;
+}
