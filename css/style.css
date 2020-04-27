@@ -1,23 +1,45 @@
 body {
-	background: linear-gradient(-45deg, #d6cbd3, #eca1a6, #bdcebe, #ada397);
-	text-align: center;
+  text-align: center;
+  margin: 0;
+  height: 100%;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+}
 
-#get-joke {
-	font-weight: bold;
-	font-size: 28px;
-	font-family: 'Press Start 2P', cursive;
-	color: white;
-	border: 3px solid #ada397;
-	margin: 10px;
-	padding: 15px;
-	border-radius: 10px;
+.jokeBtn {
+  align-self: center;
+  width: 450px;
+  padding: 20px;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #649d66;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  outline: none;
+}
+
+.jokeBtn:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }
 
 #joke {
-	font-family: 'Raleway', sans-serif;
-	color:#6b6b47;
-	margin-top: 60px;
-	font-size: 28px;
+  font-family: "Raleway", sans-serif;
+  color: #6b6b47;
+  font-size: 28px;
+  margin: 60px 40px 0 40px;
+  min-height: 100px;
 }
